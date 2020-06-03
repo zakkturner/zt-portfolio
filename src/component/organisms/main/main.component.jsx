@@ -2,9 +2,8 @@ import React from "react";
 
 import "./main.styles.scss";
 
-import MainBox from "../../atoms/main-box/main-box.component";
-import SideBox from "../../atoms/side-box/side-box.component";
 import Header from "../../atoms/header/header.component";
+import Frame from "../../molecules/frame/frame.component";
 
 export default function Main() {
   return (
@@ -12,8 +11,7 @@ export default function Main() {
       <Header />
 
       <div className="main__container">
-        <MainBox />
-        <SideBox />
+        <Frame />
       </div>
     </main>
   );
