@@ -1,0 +1,18 @@
+.custom-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #BF1736;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+  
+
+  &.portfolio{
+    transform: rotate(-90deg);
+    
+  }
+  &.contact{
+    transform: rotate(90deg);
+    
+  }
+}
