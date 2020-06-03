@@ -1,3 +1,11 @@
 .title {
-  z-index: 10;
+  color: #1455D9;
+  &__welcome{
+    font-size: 180px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    &--period{
+      color: #BF1736;
+    }
+  }
 }
